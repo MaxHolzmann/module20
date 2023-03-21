@@ -8,6 +8,7 @@ import Footer from '../components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
+
 /* 
 To Do: 
 GIVEN a single-page application portfolio for a web developer
@@ -46,9 +47,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <main className={styles['body']}>
-      <Header></Header>
+
+      {/* navigation also displays my header, which I dislike but will find a better solution as I flesh out the project */}
       <Navigation></Navigation>
+
       <Project test="project text"></Project>
       <Footer></Footer>
       </main>
