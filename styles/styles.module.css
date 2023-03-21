@@ -1,10 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-.body {
-    background-color: white;
-}
+
+
 
 .nav {
     display: flex;
-    background-color: orange;
+    font-family: Roboto;
+    background-color: blue;
+    color: white;
+    justify-content: center;
+    gap: 20px;
+}
+
+.navLink {
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
+    position: fixed;
+    background-color: blue;
+    bottom: 0;
+    width: 100%;
+    color: white
 }

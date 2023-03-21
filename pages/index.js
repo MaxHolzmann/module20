@@ -52,8 +52,7 @@ export default function Home() {
 
       {/* navigation also displays my header, which I dislike but will find a better solution as I flesh out the project */}
       <Navigation></Navigation>
-
-      <Project test="project text"></Project>
+      
       <Footer></Footer>
       </main>
       </>
