@@ -1,9 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
-
-
 .nav {
+    margin: 0;
     display: flex;
     font-family: Roboto;
     background-color: blue;
@@ -21,6 +20,7 @@
     position: fixed;
     background-color: blue;
     bottom: 0;
+    margin: 0;
     width: 100%;
     color: white
 }

@@ -1,11 +1,13 @@
 import React from 'react';
 
 
-function Project({test}) {
+function Project({project}) {
   return (
     <>
-   <h1>This is from my project</h1>
-   <h2>{test}</h2>
+   <h1>{project.title}</h1>
+   <h2><a target="_blank" href={project.url}>Deployment Link</a></h2>
+   <h2>{project.description}</h2>
+   <img src={project.img}></img>
    </>
   );
 }

@@ -1,9 +1,18 @@
 import React from 'react';
+import Project from '../Project';
 
+const projectOne = {
+  title: "testo project title",
+  description: "Testo project description",
+  url: "https://youtube.com/",
+  img: ""
+}
 
 function Portfolio() {
   return (
-   <h1>Portfolio Page</h1>
+    <>
+   <Project project={projectOne}></Project>
+   </>
   );
 }
 
