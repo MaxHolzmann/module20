@@ -1,13 +1,18 @@
 import React from 'react';
+import styles from '../styles/styles.module.css'
 
 
 function Project({project}) {
   return (
     <>
-   <h1>{project.title}</h1>
-   <h2><a target="_blank" href={project.url}>Deployment Link</a></h2>
-   <h2>{project.description}</h2>
-   <img src={project.img}></img>
+   <h1 className={styles['project-title']}>{project.title}</h1>
+   <div className={styles['project-container']}>
+   <img className={styles['project-img']} src={project.img}></img>
+   <div>
+   <h2 className={styles['project-text']} >{project.description}</h2>
+   <h2><a target="_blank" href={project.url}>Project Deployment</a></h2>
+   </div>
+   </div>
    </>
   );
 }
