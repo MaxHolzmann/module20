@@ -100,6 +100,35 @@
     scale: 1.1;
 }
 
+.contact-header {
+    font-family: "Roboto";
+    font-size: 40px;
+    text-align: center;
+}
+
+.contact-text {
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.contact-methods {
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 18px;
+    transition: ease-in 0.2s;
+}
+
+.contact-methods a {
+    text-decoration: none;
+    color: black;
+}
+
+.contact-methods:hover {
+    scale: 1.1;
+}
+
+
 
 .footer {
     border-radius: 30px 30px 0px 0px;
