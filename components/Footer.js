@@ -4,7 +4,11 @@ import styles from '../styles/styles.module.css'
 
 function Footer() {
   return (
-   <h1 className={styles.footer}>Maximilian Holzmann, 2023</h1>
+    <>
+    <div className={styles.footer}>
+    <h1>Maximilian Holzmann, 2023</h1>
+   </div>
+   </>
   );
 }
 
